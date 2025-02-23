@@ -1,0 +1,24 @@
+{
+  "name": "authenticator",
+  "version": "1.0.0",
+  "author": "Shreyansh Awadhiya",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "mongoose": "^8.10.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9"
+  },
+  "description": "A Node.js authentication system with Express and Tailwind CSS",
+  "keywords": [],
+  "license": "MIT"
+}
